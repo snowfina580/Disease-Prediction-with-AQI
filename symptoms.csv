@@ -1,0 +1,1001 @@
+Disease,Cough,Breathlessness,Wheezing,Shortness of Breath,Fever,Chest Pain,Headache,Fatigue,Sneezing,Itchy Eyes
+Asthma,0,1,1,0,0,0,1,0,0,0
+Asthma,1,1,0,1,1,1,0,1,1,1
+Asthma,1,1,1,1,1,0,1,0,0,1
+Asthma,0,1,0,1,0,1,0,1,0,0
+Asthma,1,1,0,1,0,1,0,0,1,1
+Asthma,0,1,1,1,1,0,0,1,0,1
+Asthma,1,1,1,1,0,1,0,0,1,1
+Asthma,1,1,1,1,1,1,0,1,1,0
+Asthma,0,0,0,1,0,0,0,1,0,1
+Asthma,0,1,0,1,1,1,0,1,1,0
+Asthma,1,1,0,1,1,1,0,0,0,1
+Asthma,1,1,1,1,1,0,1,1,0,0
+Asthma,1,1,0,1,1,1,0,0,0,1
+Asthma,1,1,1,0,1,0,0,0,0,1
+Asthma,1,1,0,1,0,1,1,0,1,1
+Asthma,1,0,1,1,0,1,0,0,0,0
+Asthma,1,1,1,1,0,0,0,1,1,1
+Asthma,1,1,1,0,0,1,1,1,0,1
+Asthma,1,1,0,0,1,1,0,1,1,1
+Asthma,1,1,0,1,0,1,0,1,1,1
+Asthma,0,1,1,1,0,1,0,1,0,1
+Asthma,1,1,0,1,0,0,0,1,0,0
+Asthma,1,1,0,1,1,0,1,0,1,1
+Asthma,1,1,1,1,0,0,1,1,0,0
+Asthma,1,1,1,1,0,1,0,1,0,1
+Asthma,0,1,0,1,0,0,0,0,0,0
+Asthma,1,1,0,1,0,1,1,1,1,0
+Asthma,1,1,0,1,0,1,1,0,1,0
+Asthma,1,1,0,1,0,0,0,0,0,1
+Asthma,1,1,0,1,1,0,0,1,1,1
+Asthma,1,1,1,1,1,0,1,1,0,0
+Asthma,0,0,0,0,0,1,0,1,0,1
+Asthma,1,1,1,1,1,1,1,0,1,1
+Asthma,1,0,1,1,1,1,1,1,1,0
+Asthma,0,1,1,1,1,0,1,0,1,1
+Asthma,0,1,1,1,0,1,1,0,1,1
+Asthma,0,1,1,1,1,0,0,1,1,0
+Asthma,0,1,1,0,0,0,1,1,1,0
+Asthma,1,1,1,1,1,0,1,1,1,0
+Asthma,1,0,1,1,0,1,0,1,0,1
+Asthma,0,1,1,1,1,0,0,0,1,0
+Asthma,1,1,1,1,0,0,0,1,0,0
+Asthma,1,0,0,1,1,0,0,1,0,0
+Asthma,1,1,0,1,1,1,0,1,1,1
+Asthma,1,1,0,0,1,0,1,1,1,0
+Asthma,1,1,0,1,1,0,1,1,0,0
+Asthma,1,1,1,1,0,1,0,1,0,0
+Asthma,1,0,1,1,0,0,0,1,0,1
+Asthma,1,1,0,1,0,1,0,0,0,0
+Asthma,1,0,1,1,1,0,0,0,0,1
+Asthma,1,1,1,1,1,1,1,0,1,1
+Asthma,1,1,1,1,0,1,0,0,0,1
+Asthma,1,1,0,1,0,0,0,0,1,0
+Asthma,1,0,1,1,1,1,0,1,1,1
+Asthma,0,1,1,1,0,1,0,1,1,1
+Asthma,1,1,1,1,1,0,0,0,1,0
+Asthma,0,0,1,1,1,1,1,1,0,0
+Asthma,0,1,1,0,0,1,1,1,1,0
+Asthma,1,1,1,1,1,0,0,1,0,0
+Asthma,1,1,1,1,0,0,1,1,1,0
+Asthma,0,1,0,0,0,1,0,1,1,1
+Asthma,1,1,1,1,1,0,1,0,1,0
+Asthma,1,1,1,1,1,1,1,1,1,0
+Asthma,0,1,0,1,0,0,1,1,1,0
+Asthma,1,1,0,1,1,1,0,1,1,0
+Asthma,0,1,0,1,0,1,1,0,1,1
+Asthma,1,1,1,1,1,1,0,0,0,0
+Asthma,1,1,1,1,1,0,1,1,0,0
+Asthma,0,1,1,1,0,0,0,1,0,1
+Asthma,1,1,0,0,0,1,1,0,1,0
+Asthma,1,1,1,1,0,1,0,0,0,1
+Asthma,1,1,0,1,0,1,0,1,0,0
+Asthma,1,0,0,1,0,1,1,0,1,1
+Asthma,1,0,1,1,1,1,0,1,0,1
+Asthma,0,1,0,1,0,0,1,0,0,0
+Asthma,1,1,1,0,1,0,0,1,1,0
+Asthma,0,0,1,1,0,1,1,0,0,1
+Asthma,1,1,1,1,1,0,0,0,0,1
+Asthma,1,0,1,1,0,0,1,1,0,0
+Asthma,0,1,1,1,0,1,1,0,1,0
+Asthma,0,1,1,1,1,1,0,1,1,1
+Asthma,1,1,1,1,1,0,1,0,1,1
+Asthma,1,1,1,1,0,0,0,0,0,1
+Asthma,0,1,0,0,0,1,0,0,1,1
+Asthma,1,1,1,1,0,1,1,0,1,1
+Asthma,1,0,0,0,0,1,0,1,1,0
+Asthma,1,1,1,1,1,1,0,1,0,1
+Asthma,1,1,1,0,1,1,1,1,1,0
+Asthma,1,1,1,1,0,0,0,0,1,1
+Asthma,1,1,0,0,0,1,0,0,1,0
+Asthma,1,1,1,1,1,1,0,1,1,1
+Asthma,1,1,1,1,0,1,0,0,0,0
+Asthma,1,1,0,1,1,1,0,1,1,1
+Asthma,1,0,1,1,0,0,0,0,1,0
+Asthma,0,1,1,1,0,0,0,1,0,0
+Asthma,1,1,0,1,0,0,1,1,0,0
+Asthma,0,1,1,0,0,1,0,1,0,0
+Asthma,0,1,1,1,1,1,0,1,0,0
+Asthma,1,1,0,1,1,1,0,0,1,1
+Asthma,1,0,0,0,1,0,1,0,1,0
+Asthma,1,0,1,1,0,0,0,1,1,0
+Asthma,0,1,0,1,1,1,1,0,1,0
+Asthma,0,1,1,0,1,0,1,0,0,0
+Asthma,1,1,1,1,0,1,0,0,0,0
+Asthma,1,1,1,1,1,0,1,1,0,0
+Asthma,1,1,0,1,0,1,1,0,0,0
+Asthma,0,1,1,1,0,0,0,0,1,0
+Asthma,0,1,0,1,1,0,0,1,1,0
+Asthma,0,1,1,0,1,1,0,0,1,1
+Asthma,1,1,0,1,1,1,0,0,1,0
+Asthma,1,1,1,1,1,1,1,0,0,0
+Asthma,1,1,1,1,1,1,0,1,1,0
+Asthma,1,0,1,1,0,1,0,0,1,1
+Asthma,1,1,1,0,1,1,1,0,0,1
+Asthma,1,0,1,1,0,1,1,1,0,0
+Asthma,0,1,1,1,1,1,0,1,0,0
+Asthma,1,1,0,1,0,0,1,0,1,1
+Asthma,1,1,1,1,0,1,1,1,0,0
+Asthma,0,1,1,0,1,1,1,0,1,0
+Asthma,1,1,1,1,0,1,0,0,0,0
+Asthma,1,0,0,1,1,0,1,1,0,1
+Asthma,0,1,1,1,1,1,1,1,0,1
+Asthma,1,0,1,1,1,0,0,0,1,1
+Asthma,1,0,1,1,0,0,1,0,0,1
+Asthma,1,0,1,1,0,1,1,1,0,0
+Asthma,0,1,1,1,0,0,0,1,0,1
+Asthma,1,1,1,1,0,0,1,1,1,1
+Asthma,1,1,1,0,1,1,1,0,0,1
+Asthma,1,1,1,1,0,1,0,1,1,1
+Asthma,1,1,0,1,1,0,0,0,1,0
+Asthma,1,1,1,1,1,1,1,0,1,0
+Asthma,0,1,1,1,0,1,1,0,0,0
+Asthma,1,1,0,1,1,0,0,1,1,0
+Asthma,1,1,1,1,0,0,1,0,1,1
+Asthma,0,1,0,1,0,1,0,0,1,1
+Asthma,1,1,0,1,0,0,0,1,1,1
+Asthma,1,1,1,1,1,0,0,0,0,1
+Asthma,1,1,0,0,1,1,0,0,0,1
+Asthma,1,1,1,1,1,1,0,1,1,0
+Asthma,1,1,1,1,1,1,0,0,0,0
+Asthma,1,0,1,1,0,1,1,1,0,1
+Asthma,1,1,0,0,0,1,0,0,1,1
+Asthma,1,1,1,1,1,1,0,0,1,0
+Asthma,1,1,0,1,0,0,1,0,0,0
+Asthma,1,1,1,1,1,0,1,1,1,0
+Asthma,0,1,1,0,1,1,1,0,1,1
+Asthma,1,0,1,1,1,1,1,0,0,0
+Asthma,0,1,0,1,0,1,0,1,0,0
+Asthma,1,1,0,0,0,1,0,0,1,0
+Asthma,1,0,1,0,0,1,1,1,0,1
+Asthma,0,1,1,0,0,1,0,1,0,0
+Asthma,1,0,0,1,1,0,1,1,0,0
+Asthma,1,0,0,1,0,0,1,1,0,1
+Asthma,1,1,1,1,0,1,1,1,1,0
+Asthma,1,1,1,1,0,1,1,0,1,1
+Asthma,1,1,1,1,0,0,0,1,0,1
+Asthma,0,1,0,0,1,1,1,1,1,1
+Asthma,1,1,1,1,1,0,0,0,0,1
+Asthma,0,0,1,1,1,0,0,1,1,0
+Asthma,0,0,1,1,1,1,0,0,1,0
+Asthma,1,1,1,1,0,1,1,1,1,1
+Asthma,1,1,0,1,0,1,1,0,1,0
+Asthma,1,1,0,0,0,1,1,0,0,0
+Asthma,1,1,1,1,0,1,0,0,0,1
+Asthma,1,1,1,1,0,1,1,0,1,1
+Asthma,1,1,1,1,1,0,1,1,1,0
+Asthma,1,1,1,1,1,0,1,0,0,0
+Asthma,1,1,0,1,1,1,1,0,0,0
+Asthma,0,1,0,1,1,0,0,1,0,1
+Asthma,0,1,1,1,1,1,0,0,1,1
+Asthma,1,1,1,0,1,1,1,0,1,0
+Asthma,0,1,1,1,1,0,1,1,0,1
+Asthma,1,1,1,1,0,1,0,0,1,0
+Asthma,1,1,0,1,1,0,0,0,0,0
+Asthma,1,1,1,0,1,0,0,1,1,1
+Asthma,1,0,0,1,0,1,1,0,0,0
+Asthma,0,0,0,1,1,1,0,0,0,0
+Asthma,0,1,0,1,1,1,0,0,1,1
+Asthma,1,1,1,0,1,1,1,0,0,1
+Asthma,1,1,1,1,1,0,1,0,0,1
+Asthma,1,1,1,1,1,0,0,1,0,0
+Asthma,0,1,1,1,0,0,1,0,1,1
+Asthma,1,0,1,1,1,1,0,1,0,0
+Asthma,1,1,1,1,0,1,1,0,0,1
+Asthma,1,0,1,0,0,1,0,0,1,0
+Asthma,1,1,0,1,0,0,1,0,1,0
+Asthma,1,1,1,0,0,0,1,1,0,0
+Asthma,1,1,1,1,1,1,0,1,0,1
+Asthma,1,1,0,1,0,0,0,1,1,0
+Asthma,0,1,1,1,0,1,1,1,0,1
+Asthma,0,1,1,0,0,1,1,0,0,0
+Asthma,1,1,1,1,1,0,0,0,1,0
+Asthma,1,1,0,1,0,0,1,1,1,1
+Asthma,0,0,1,0,0,1,1,0,0,0
+Asthma,0,0,1,1,1,1,0,0,1,0
+Asthma,1,1,1,1,0,1,1,1,0,0
+Asthma,0,0,1,1,1,1,0,0,0,0
+Asthma,0,1,1,1,0,1,1,1,1,0
+Asthma,1,1,1,0,1,1,0,1,1,1
+Asthma,1,0,0,1,0,1,0,1,0,0
+Bronchitis,1,1,0,1,1,0,1,1,1,0
+Bronchitis,1,1,0,0,1,0,1,0,0,0
+Bronchitis,1,1,0,0,1,0,1,1,1,0
+Bronchitis,1,1,1,1,0,0,1,1,1,0
+Bronchitis,0,1,1,1,0,1,0,1,0,0
+Bronchitis,1,1,0,0,0,0,1,0,0,0
+Bronchitis,1,1,1,1,0,0,0,0,0,0
+Bronchitis,1,0,1,1,1,0,0,0,0,1
+Bronchitis,1,0,1,0,1,0,0,0,0,0
+Bronchitis,0,1,1,1,1,0,0,1,0,0
+Bronchitis,1,1,0,1,0,1,1,1,1,0
+Bronchitis,1,0,0,0,0,1,1,1,0,0
+Bronchitis,1,0,1,0,1,0,0,0,0,1
+Bronchitis,0,1,0,1,1,0,1,0,1,1
+Bronchitis,1,0,1,0,1,0,0,1,1,0
+Bronchitis,1,1,0,1,1,1,0,0,0,1
+Bronchitis,0,1,0,1,1,1,1,1,0,0
+Bronchitis,1,0,1,0,0,1,1,0,1,1
+Bronchitis,1,1,0,0,1,1,0,0,1,1
+Bronchitis,1,1,0,0,0,0,1,0,0,0
+Bronchitis,1,0,0,1,1,1,0,1,1,1
+Bronchitis,1,1,1,0,1,1,0,0,1,0
+Bronchitis,1,0,1,1,0,1,0,1,0,0
+Bronchitis,1,0,1,1,1,1,1,0,1,0
+Bronchitis,1,0,0,0,1,1,1,0,0,1
+Bronchitis,1,1,1,1,1,1,1,0,0,1
+Bronchitis,1,1,0,0,0,1,0,0,1,0
+Bronchitis,1,0,1,1,1,1,0,1,0,1
+Bronchitis,1,0,1,0,0,1,1,0,0,1
+Bronchitis,1,1,0,1,0,0,1,0,1,1
+Bronchitis,1,1,0,0,0,1,0,0,1,1
+Bronchitis,1,0,1,0,1,0,0,1,0,1
+Bronchitis,1,1,0,1,0,1,1,0,1,0
+Bronchitis,1,0,1,1,0,0,1,1,1,1
+Bronchitis,1,0,1,1,0,0,0,0,1,0
+Bronchitis,1,1,1,1,1,1,0,1,0,0
+Bronchitis,0,1,0,1,1,1,1,1,0,1
+Bronchitis,1,0,1,1,1,1,0,1,1,1
+Bronchitis,1,0,1,0,1,0,1,0,1,1
+Bronchitis,1,1,1,0,1,0,1,0,0,0
+Bronchitis,0,1,1,0,0,1,0,0,1,0
+Bronchitis,1,0,0,1,1,0,0,0,1,0
+Bronchitis,0,1,1,0,1,0,0,1,0,1
+Bronchitis,1,1,1,0,0,0,0,0,1,1
+Bronchitis,1,1,0,1,1,0,0,1,1,1
+Bronchitis,1,1,1,1,1,0,1,0,1,0
+Bronchitis,1,0,0,1,1,1,0,1,1,1
+Bronchitis,1,1,0,0,0,1,0,0,0,0
+Bronchitis,1,0,1,0,1,1,1,1,1,0
+Bronchitis,1,1,0,0,1,0,0,0,1,0
+Bronchitis,1,1,0,1,0,0,1,1,1,0
+Bronchitis,1,1,1,1,0,1,1,0,1,0
+Bronchitis,1,0,1,0,1,0,1,1,1,0
+Bronchitis,1,1,0,0,1,1,1,1,1,1
+Bronchitis,1,1,0,1,1,1,0,1,0,1
+Bronchitis,1,0,1,1,1,0,1,0,0,0
+Bronchitis,1,0,1,0,1,1,1,0,1,0
+Bronchitis,1,1,0,0,1,0,1,1,0,0
+Bronchitis,1,1,0,1,1,0,0,1,0,0
+Bronchitis,1,1,0,1,0,0,0,1,0,0
+Bronchitis,1,0,0,0,1,0,1,1,1,0
+Bronchitis,1,1,1,0,1,1,1,0,0,1
+Bronchitis,1,1,0,0,1,0,1,0,1,0
+Bronchitis,1,1,1,0,0,0,1,1,1,0
+Bronchitis,1,1,0,1,1,0,0,0,1,1
+Bronchitis,1,1,1,1,1,1,0,1,0,0
+Bronchitis,1,0,1,1,1,0,1,0,1,0
+Bronchitis,1,1,0,1,1,0,1,1,0,1
+Bronchitis,0,0,1,0,0,0,0,1,0,1
+Bronchitis,1,1,0,1,1,0,0,0,1,0
+Bronchitis,1,1,0,0,1,1,1,1,1,1
+Bronchitis,1,1,0,0,1,0,0,0,0,0
+Bronchitis,1,0,0,0,1,1,0,1,1,1
+Bronchitis,1,0,0,0,1,1,0,0,0,0
+Bronchitis,1,0,1,1,0,0,0,0,1,1
+Bronchitis,1,1,0,1,1,1,1,0,0,1
+Bronchitis,1,0,1,0,1,1,0,1,1,1
+Bronchitis,1,1,1,1,0,0,1,1,0,0
+Bronchitis,0,1,0,1,1,0,1,0,1,1
+Bronchitis,1,0,0,0,1,0,0,0,1,0
+Bronchitis,1,1,1,0,1,1,0,1,1,0
+Bronchitis,1,1,0,0,0,1,0,1,0,0
+Bronchitis,1,0,1,1,1,1,1,1,0,0
+Bronchitis,1,1,0,0,0,1,0,0,1,0
+Bronchitis,1,0,1,1,1,0,0,0,0,0
+Bronchitis,1,1,1,1,1,1,0,1,1,0
+Bronchitis,0,0,0,0,0,0,1,1,1,1
+Bronchitis,1,0,0,1,1,0,0,1,0,1
+Bronchitis,1,0,1,0,1,1,1,1,1,0
+Bronchitis,0,0,1,1,1,1,1,1,1,0
+Bronchitis,1,1,1,0,1,1,1,0,0,1
+Bronchitis,1,1,1,1,1,0,0,0,0,0
+Bronchitis,1,0,0,0,1,0,0,0,0,0
+Bronchitis,1,1,0,1,1,0,1,1,0,1
+Bronchitis,1,0,1,0,0,0,0,0,1,0
+Bronchitis,1,1,1,0,1,1,0,0,1,0
+Bronchitis,1,0,0,1,0,1,1,0,1,0
+Bronchitis,1,1,1,0,1,0,1,1,0,1
+Bronchitis,1,1,1,0,0,1,1,0,1,1
+Bronchitis,1,0,1,0,1,0,0,0,1,1
+Bronchitis,1,1,1,1,1,0,0,0,1,0
+Bronchitis,1,0,1,0,0,1,0,0,0,1
+Bronchitis,1,0,0,0,1,0,1,0,0,0
+Bronchitis,1,1,1,1,1,0,1,1,0,1
+Bronchitis,1,1,0,1,1,1,1,1,1,1
+Bronchitis,1,1,1,0,1,1,0,0,0,1
+Bronchitis,1,1,0,0,1,1,1,0,1,0
+Bronchitis,1,1,1,1,1,0,1,1,0,1
+Bronchitis,1,1,0,0,1,0,0,0,0,0
+Bronchitis,1,0,1,1,0,0,1,1,1,1
+Bronchitis,1,1,0,1,1,0,1,0,0,1
+Bronchitis,1,1,0,0,1,1,1,1,1,1
+Bronchitis,1,1,1,0,1,1,1,1,1,0
+Bronchitis,1,0,0,1,1,0,1,1,1,1
+Bronchitis,1,0,1,1,1,1,0,1,1,0
+Bronchitis,1,1,0,0,1,0,0,1,1,0
+Bronchitis,1,0,0,1,1,1,1,1,1,1
+Bronchitis,1,0,1,1,0,1,0,0,0,1
+Bronchitis,1,1,0,0,1,0,1,1,1,0
+Bronchitis,1,0,0,0,1,0,0,1,0,1
+Bronchitis,1,1,1,0,1,0,1,0,1,0
+Bronchitis,0,0,0,1,0,1,0,0,1,1
+Bronchitis,1,1,0,0,1,1,1,1,0,1
+Bronchitis,1,1,1,0,1,1,0,1,1,1
+Bronchitis,1,1,1,0,1,0,0,0,1,1
+Bronchitis,1,1,0,1,1,0,1,1,0,1
+Bronchitis,1,1,0,0,1,0,0,0,1,1
+Bronchitis,1,0,1,1,1,0,1,0,0,1
+Bronchitis,1,0,1,1,0,1,1,0,1,0
+Bronchitis,1,0,1,1,1,1,0,1,1,1
+Bronchitis,1,0,1,0,1,0,1,0,1,1
+Bronchitis,1,1,0,1,1,1,1,0,0,1
+Bronchitis,1,1,0,1,1,1,1,0,1,0
+Bronchitis,1,1,0,1,0,0,1,1,0,0
+Bronchitis,0,1,0,0,0,1,1,0,1,1
+Bronchitis,1,1,0,1,0,1,0,0,1,0
+Bronchitis,1,1,1,0,1,0,1,1,0,0
+Bronchitis,1,1,0,0,1,1,1,0,1,1
+Bronchitis,1,1,1,1,0,1,0,1,0,1
+Bronchitis,1,0,0,0,1,0,1,0,1,0
+Bronchitis,0,0,0,1,0,1,1,1,1,0
+Bronchitis,1,1,1,0,0,1,1,0,1,1
+Bronchitis,1,1,0,1,1,0,1,1,1,1
+Bronchitis,1,1,0,0,1,0,1,1,0,1
+Bronchitis,1,1,0,1,0,0,0,1,1,1
+Bronchitis,1,0,0,0,1,1,0,1,0,1
+Bronchitis,0,1,0,0,1,1,1,1,0,0
+Bronchitis,1,0,0,1,1,1,1,0,1,1
+Bronchitis,1,0,1,0,0,0,1,0,1,0
+Bronchitis,1,1,1,0,1,0,1,1,1,0
+Bronchitis,1,1,0,0,1,0,1,0,1,1
+Bronchitis,1,0,0,1,0,0,1,1,0,1
+Bronchitis,1,1,1,1,0,1,0,0,0,0
+Bronchitis,1,1,1,1,1,0,1,1,0,1
+Bronchitis,1,1,0,0,1,1,1,1,1,0
+Bronchitis,1,1,0,1,1,1,1,0,1,0
+Bronchitis,1,1,1,0,1,0,1,1,0,1
+Bronchitis,0,0,1,1,1,1,0,1,1,0
+Bronchitis,1,1,1,0,0,1,0,1,0,1
+Bronchitis,1,1,0,1,1,0,1,1,0,0
+Bronchitis,1,0,1,1,1,0,1,0,0,1
+Bronchitis,0,1,1,1,1,1,1,1,1,1
+Bronchitis,1,1,1,0,0,0,0,0,0,0
+Bronchitis,0,1,1,0,1,0,0,1,0,0
+Bronchitis,1,1,1,1,1,1,0,0,0,0
+Bronchitis,1,1,1,0,1,0,0,0,0,0
+Bronchitis,1,0,0,0,1,1,0,1,0,1
+Bronchitis,1,1,0,0,0,1,0,1,1,1
+Bronchitis,1,1,1,0,0,0,1,0,0,0
+Bronchitis,0,1,0,0,1,0,1,0,0,1
+Bronchitis,1,0,1,0,1,0,1,0,0,0
+Bronchitis,1,1,1,1,1,0,0,1,1,0
+Bronchitis,0,1,0,0,1,0,1,0,0,0
+Bronchitis,1,0,0,1,0,0,1,0,1,1
+Bronchitis,1,1,1,1,0,0,1,0,1,1
+Bronchitis,1,0,0,1,0,0,0,0,1,0
+Bronchitis,1,1,0,0,1,1,1,0,0,1
+Bronchitis,1,0,0,0,1,1,1,1,1,1
+Bronchitis,1,0,1,1,1,0,0,0,0,1
+Bronchitis,0,1,0,1,0,0,1,1,0,0
+Bronchitis,1,1,1,0,0,1,0,0,1,1
+Bronchitis,1,1,1,0,1,1,0,1,1,0
+Bronchitis,1,1,1,1,1,0,0,0,0,1
+Bronchitis,1,1,0,0,1,1,1,1,1,0
+Bronchitis,1,1,0,0,0,1,0,1,1,0
+Bronchitis,0,1,0,1,0,0,0,1,1,1
+Bronchitis,1,1,1,1,1,1,1,0,0,1
+Bronchitis,1,1,1,0,0,1,0,0,0,0
+Bronchitis,0,1,1,1,1,0,0,1,1,0
+Bronchitis,1,1,1,0,0,1,1,0,0,1
+Bronchitis,1,1,1,0,1,1,1,0,0,1
+Bronchitis,1,1,1,0,0,1,0,1,0,1
+Bronchitis,1,1,0,0,1,1,0,1,1,0
+Bronchitis,1,1,1,0,1,1,0,0,0,0
+Bronchitis,1,0,1,0,1,0,1,0,1,1
+Bronchitis,1,1,1,1,0,1,1,0,0,0
+Bronchitis,1,1,0,0,0,0,0,0,0,0
+Bronchitis,1,1,0,0,1,0,0,1,0,1
+Bronchitis,1,0,1,1,1,0,1,0,1,1
+Bronchitis,1,0,0,1,1,1,1,0,0,0
+Allergic Rhinitis,1,1,0,0,1,1,0,1,1,1
+Allergic Rhinitis,1,1,0,0,0,0,1,1,1,0
+Allergic Rhinitis,1,0,1,0,1,1,0,1,1,0
+Allergic Rhinitis,1,1,1,0,0,0,1,1,0,0
+Allergic Rhinitis,1,0,0,0,1,0,0,1,1,0
+Allergic Rhinitis,0,1,0,0,0,0,1,0,1,0
+Allergic Rhinitis,1,0,0,1,0,1,0,0,1,1
+Allergic Rhinitis,1,0,0,0,0,1,1,1,0,0
+Allergic Rhinitis,1,0,0,1,0,1,1,0,0,1
+Allergic Rhinitis,1,1,0,0,1,0,0,0,0,0
+Allergic Rhinitis,1,0,1,0,1,0,0,1,0,0
+Allergic Rhinitis,0,0,0,0,1,1,1,0,1,1
+Allergic Rhinitis,0,0,0,0,0,0,1,1,0,0
+Allergic Rhinitis,0,0,1,0,0,0,1,0,1,0
+Allergic Rhinitis,1,0,1,1,0,0,1,0,0,0
+Allergic Rhinitis,1,1,0,0,0,0,1,1,0,0
+Allergic Rhinitis,0,1,1,1,0,0,0,1,0,0
+Allergic Rhinitis,0,1,0,1,1,1,0,1,1,1
+Allergic Rhinitis,1,1,0,1,0,1,1,0,1,0
+Allergic Rhinitis,1,1,1,1,0,1,0,1,0,1
+Allergic Rhinitis,0,0,1,1,1,1,0,1,0,0
+Allergic Rhinitis,0,0,0,1,0,1,1,0,1,1
+Allergic Rhinitis,1,0,1,0,0,1,1,0,1,0
+Allergic Rhinitis,1,1,1,0,1,0,1,0,1,0
+Allergic Rhinitis,1,0,0,0,1,0,0,1,1,0
+Allergic Rhinitis,1,1,1,0,0,1,1,1,0,1
+Allergic Rhinitis,1,1,1,1,1,1,0,1,0,1
+Allergic Rhinitis,1,1,1,1,0,0,0,0,1,0
+Allergic Rhinitis,1,0,1,1,0,0,1,1,1,1
+Allergic Rhinitis,0,0,0,1,0,0,1,0,0,0
+Allergic Rhinitis,0,1,1,0,0,1,0,1,1,0
+Allergic Rhinitis,0,1,1,0,1,1,0,0,0,1
+Allergic Rhinitis,1,1,0,0,1,0,0,1,0,1
+Allergic Rhinitis,0,0,0,1,0,1,0,0,1,1
+Allergic Rhinitis,0,1,1,1,0,1,1,0,1,1
+Allergic Rhinitis,1,0,1,1,0,1,0,0,1,0
+Allergic Rhinitis,0,0,1,1,1,1,0,0,1,1
+Allergic Rhinitis,1,1,0,0,0,0,1,0,0,0
+Allergic Rhinitis,0,0,1,1,0,1,1,1,0,1
+Allergic Rhinitis,0,1,0,1,1,0,1,1,0,1
+Allergic Rhinitis,1,0,0,1,1,1,1,1,0,1
+Allergic Rhinitis,0,0,0,1,0,0,1,0,1,1
+Allergic Rhinitis,1,1,1,1,1,1,0,0,0,0
+Allergic Rhinitis,0,0,0,1,0,0,1,0,1,0
+Allergic Rhinitis,0,0,1,1,1,1,1,0,1,0
+Allergic Rhinitis,0,0,0,0,1,1,0,1,1,1
+Allergic Rhinitis,0,1,0,1,0,1,1,0,0,1
+Allergic Rhinitis,0,0,1,1,1,1,0,0,1,0
+Allergic Rhinitis,1,1,1,1,0,1,0,1,0,0
+Allergic Rhinitis,0,0,0,1,0,1,0,1,0,1
+Allergic Rhinitis,0,1,0,1,1,0,0,1,1,1
+Allergic Rhinitis,0,1,0,1,0,1,1,1,0,1
+Allergic Rhinitis,0,1,0,1,0,1,1,0,0,1
+Allergic Rhinitis,0,1,1,0,1,1,0,0,1,1
+Allergic Rhinitis,0,0,0,0,0,0,1,1,0,0
+Allergic Rhinitis,1,1,0,1,1,1,0,0,1,1
+Allergic Rhinitis,1,1,0,0,0,1,1,1,1,1
+Allergic Rhinitis,0,0,0,0,1,1,1,1,0,0
+Allergic Rhinitis,1,0,1,1,1,1,0,1,1,0
+Allergic Rhinitis,1,1,0,1,0,1,1,1,0,0
+Allergic Rhinitis,1,1,1,1,1,1,0,0,0,0
+Allergic Rhinitis,1,0,0,1,0,1,1,1,0,1
+Allergic Rhinitis,1,1,1,1,1,0,0,1,1,0
+Allergic Rhinitis,0,0,1,1,1,1,1,1,0,0
+Allergic Rhinitis,1,1,0,1,1,1,0,0,0,1
+Allergic Rhinitis,1,0,1,0,0,1,0,1,1,1
+Allergic Rhinitis,1,1,1,1,1,1,1,0,1,0
+Allergic Rhinitis,1,1,0,1,1,1,1,1,1,1
+Allergic Rhinitis,0,1,0,1,1,1,0,1,0,1
+Allergic Rhinitis,0,1,1,0,0,1,0,0,0,1
+Allergic Rhinitis,0,1,0,0,0,0,1,0,0,0
+Allergic Rhinitis,1,1,1,1,1,0,1,0,1,0
+Allergic Rhinitis,0,0,0,1,0,0,1,0,0,0
+Allergic Rhinitis,0,1,0,0,1,0,1,0,0,1
+Allergic Rhinitis,1,0,1,0,0,0,1,0,0,1
+Allergic Rhinitis,0,1,1,0,0,0,0,1,1,1
+Allergic Rhinitis,0,1,1,1,0,1,0,1,1,0
+Allergic Rhinitis,1,0,1,1,0,0,1,0,0,1
+Allergic Rhinitis,1,0,0,1,1,1,1,0,0,1
+Allergic Rhinitis,0,1,0,1,0,0,0,0,0,0
+Allergic Rhinitis,1,0,1,0,1,0,1,0,0,1
+Allergic Rhinitis,0,1,1,1,0,0,0,1,1,1
+Allergic Rhinitis,0,0,0,1,1,1,1,0,1,1
+Allergic Rhinitis,0,1,1,0,1,0,1,1,0,0
+Allergic Rhinitis,0,1,1,0,0,0,0,0,0,0
+Allergic Rhinitis,0,0,0,1,1,0,0,1,1,1
+Allergic Rhinitis,1,1,1,0,1,0,1,0,0,1
+Allergic Rhinitis,1,0,1,1,0,0,1,0,0,1
+Allergic Rhinitis,0,0,0,0,1,1,1,0,0,0
+Allergic Rhinitis,0,0,0,0,1,1,0,0,1,1
+Allergic Rhinitis,1,0,1,0,1,0,1,0,1,0
+Allergic Rhinitis,0,1,1,1,0,0,0,0,0,0
+Allergic Rhinitis,0,0,0,0,0,0,0,0,1,1
+Allergic Rhinitis,0,1,1,0,0,1,1,0,1,0
+Allergic Rhinitis,0,0,0,1,0,0,0,0,0,0
+Allergic Rhinitis,1,1,1,1,0,0,1,1,1,1
+Allergic Rhinitis,0,1,0,0,1,0,0,1,1,1
+Allergic Rhinitis,0,0,1,1,1,1,0,1,0,0
+Allergic Rhinitis,1,0,1,1,0,0,0,0,0,1
+Allergic Rhinitis,1,1,1,0,0,1,1,0,0,0
+Allergic Rhinitis,1,1,0,1,1,1,1,0,1,1
+Allergic Rhinitis,1,0,1,0,1,1,1,1,0,0
+Allergic Rhinitis,1,1,0,0,0,0,1,1,0,0
+Allergic Rhinitis,1,0,0,0,0,1,0,1,0,1
+Allergic Rhinitis,1,1,0,1,0,1,1,1,1,0
+Allergic Rhinitis,1,1,0,0,1,1,1,0,0,1
+Allergic Rhinitis,1,0,0,1,1,0,0,0,1,1
+Allergic Rhinitis,0,1,0,1,1,0,0,0,1,0
+Allergic Rhinitis,0,0,0,1,0,0,1,0,1,0
+Allergic Rhinitis,1,1,1,0,0,1,0,1,0,1
+Allergic Rhinitis,1,0,1,0,0,1,1,0,0,1
+Allergic Rhinitis,0,1,0,0,0,0,1,1,1,0
+Allergic Rhinitis,1,1,1,1,1,0,1,0,0,0
+Allergic Rhinitis,0,0,0,0,0,1,0,1,0,1
+Allergic Rhinitis,0,0,1,0,1,1,1,0,0,0
+Allergic Rhinitis,1,1,0,1,1,0,1,1,1,1
+Allergic Rhinitis,1,1,1,0,1,0,0,0,1,0
+Allergic Rhinitis,1,1,0,0,1,1,1,1,0,1
+Allergic Rhinitis,0,1,0,1,0,1,1,0,0,1
+Allergic Rhinitis,1,1,1,1,0,0,0,1,0,1
+Allergic Rhinitis,0,0,0,1,1,1,0,1,0,0
+Allergic Rhinitis,0,0,0,1,0,0,1,0,0,1
+Allergic Rhinitis,0,0,1,1,0,0,1,0,0,1
+Allergic Rhinitis,1,1,1,0,1,1,0,1,0,1
+Allergic Rhinitis,1,1,0,1,1,0,1,1,1,1
+Allergic Rhinitis,0,1,1,1,1,1,1,0,1,0
+Allergic Rhinitis,0,0,1,1,0,0,1,1,1,0
+Allergic Rhinitis,0,1,0,1,1,0,1,1,1,1
+Allergic Rhinitis,0,1,0,0,0,0,1,1,1,1
+Allergic Rhinitis,1,1,0,1,0,0,1,1,1,0
+Allergic Rhinitis,1,0,0,0,1,0,1,1,0,0
+Allergic Rhinitis,1,0,0,1,0,0,0,1,0,1
+Allergic Rhinitis,0,1,0,0,1,0,0,0,0,1
+Allergic Rhinitis,1,1,0,1,1,0,1,0,0,1
+Allergic Rhinitis,1,0,0,1,1,1,0,0,1,0
+Allergic Rhinitis,0,1,1,0,1,1,1,0,1,0
+Allergic Rhinitis,0,1,1,1,1,0,0,0,1,0
+Allergic Rhinitis,1,0,0,1,1,1,0,0,0,0
+Allergic Rhinitis,1,1,0,1,0,0,1,1,0,1
+Allergic Rhinitis,1,0,0,0,1,1,0,1,1,0
+Allergic Rhinitis,0,0,0,1,0,1,0,1,1,1
+Allergic Rhinitis,0,1,0,0,1,0,1,1,0,0
+Allergic Rhinitis,1,1,1,1,0,1,1,0,1,0
+Allergic Rhinitis,0,1,0,1,1,0,1,0,0,1
+Allergic Rhinitis,0,0,0,1,0,1,0,1,1,1
+Allergic Rhinitis,1,1,1,0,1,0,0,0,1,1
+Allergic Rhinitis,1,0,0,0,0,0,1,0,1,0
+Allergic Rhinitis,0,1,1,0,1,1,1,0,1,0
+Allergic Rhinitis,1,0,0,1,0,1,1,0,1,1
+Allergic Rhinitis,0,0,1,0,0,1,1,1,1,0
+Allergic Rhinitis,0,0,1,0,0,0,1,1,1,0
+Allergic Rhinitis,0,1,1,1,1,1,0,0,1,1
+Allergic Rhinitis,1,1,1,1,0,1,0,0,0,1
+Allergic Rhinitis,1,1,1,1,0,0,1,0,1,1
+Allergic Rhinitis,1,0,0,1,0,0,1,1,0,1
+Allergic Rhinitis,1,1,0,1,0,0,1,0,1,0
+Allergic Rhinitis,0,1,1,1,1,0,1,1,1,0
+Allergic Rhinitis,0,0,1,1,0,1,0,1,1,0
+Allergic Rhinitis,0,1,0,0,1,0,1,1,0,0
+Allergic Rhinitis,0,1,0,1,1,0,0,1,1,0
+Allergic Rhinitis,1,0,0,1,0,1,1,0,1,1
+Allergic Rhinitis,0,0,1,1,0,0,0,1,0,1
+Allergic Rhinitis,1,1,0,1,1,0,1,0,1,1
+Allergic Rhinitis,1,0,0,1,1,0,0,1,0,0
+Allergic Rhinitis,0,1,1,1,0,0,1,0,0,0
+Allergic Rhinitis,0,1,1,1,0,1,0,1,1,0
+Allergic Rhinitis,0,1,0,1,1,1,0,1,1,1
+Allergic Rhinitis,0,1,1,0,0,1,0,0,1,0
+Allergic Rhinitis,0,1,0,0,0,1,1,0,0,0
+Allergic Rhinitis,0,0,1,1,1,0,0,0,1,0
+Allergic Rhinitis,0,0,1,0,0,1,1,1,1,1
+Allergic Rhinitis,1,0,0,0,1,0,0,1,1,0
+Allergic Rhinitis,1,0,0,0,0,0,1,0,1,0
+Allergic Rhinitis,1,0,0,0,0,1,1,1,0,0
+Allergic Rhinitis,0,0,1,0,0,0,0,0,0,1
+Allergic Rhinitis,1,1,0,1,1,0,0,1,1,0
+Allergic Rhinitis,1,1,1,1,1,1,0,0,0,0
+Allergic Rhinitis,0,0,0,1,1,0,1,1,1,0
+Allergic Rhinitis,1,1,0,1,1,0,0,0,0,0
+Allergic Rhinitis,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,1,0,0,1,0,0,0,0,0,0
+Allergic Rhinitis,1,1,1,1,0,0,0,1,0,1
+Allergic Rhinitis,0,1,0,1,1,0,1,0,1,0
+Allergic Rhinitis,1,0,0,0,1,0,1,0,0,0
+Allergic Rhinitis,0,0,1,1,0,1,1,1,1,1
+Allergic Rhinitis,1,0,0,1,1,1,1,1,0,1
+Allergic Rhinitis,0,0,0,0,0,1,0,0,0,0
+Allergic Rhinitis,1,1,1,0,0,0,0,1,1,1
+Allergic Rhinitis,1,0,0,1,0,0,0,0,0,0
+Allergic Rhinitis,0,1,0,1,0,0,0,0,1,0
+Allergic Rhinitis,0,1,1,0,1,1,0,1,0,0
+Allergic Rhinitis,1,0,0,0,0,1,0,0,0,1
+Allergic Rhinitis,1,0,0,0,1,1,0,0,1,1
+Allergic Rhinitis,1,0,0,0,0,0,0,1,1,0
+Allergic Rhinitis,1,1,1,0,0,0,1,1,0,0
+Allergic Rhinitis,0,1,1,1,1,1,1,1,0,0
+Allergic Rhinitis,1,0,1,1,1,0,0,1,0,0
+Allergic Rhinitis,0,1,1,1,0,1,0,1,1,1
+Allergic Rhinitis,0,0,0,1,1,0,0,1,0,0
+Allergic Rhinitis,0,0,1,0,1,0,1,0,1,1
+Heart Disease,1,0,1,1,0,0,0,1,1,0
+Heart Disease,0,0,1,0,1,1,0,0,1,1
+Heart Disease,0,1,0,1,0,0,1,1,0,1
+Heart Disease,1,1,0,1,1,0,1,1,1,0
+Heart Disease,0,0,1,0,1,1,0,0,0,0
+Heart Disease,1,0,1,0,1,0,0,1,1,0
+Heart Disease,1,0,0,1,1,0,1,1,1,1
+Heart Disease,1,1,0,1,0,1,0,1,1,0
+Heart Disease,1,0,1,1,0,0,1,0,0,1
+Heart Disease,0,1,0,1,1,0,0,0,0,1
+Heart Disease,1,1,1,0,0,0,1,1,1,1
+Heart Disease,1,1,1,0,1,1,0,0,1,0
+Heart Disease,0,1,1,1,1,1,1,1,1,1
+Heart Disease,1,1,1,1,0,0,1,1,0,1
+Heart Disease,1,0,0,0,1,0,1,0,1,1
+Heart Disease,1,0,0,0,0,1,0,0,1,1
+Heart Disease,1,1,1,1,1,0,1,1,0,1
+Heart Disease,0,1,0,1,1,1,0,1,1,0
+Heart Disease,0,0,1,0,1,0,1,0,0,1
+Heart Disease,0,1,0,0,1,0,0,0,1,1
+Heart Disease,1,1,1,0,0,0,0,1,0,0
+Heart Disease,1,0,1,0,1,1,1,0,1,1
+Heart Disease,0,1,0,0,1,1,1,1,1,0
+Heart Disease,1,1,1,1,1,0,1,0,1,0
+Heart Disease,0,1,1,1,0,0,1,1,0,1
+Heart Disease,1,0,0,1,0,0,1,0,1,1
+Heart Disease,1,0,0,0,0,0,0,1,1,1
+Heart Disease,1,1,1,1,1,1,1,0,0,1
+Heart Disease,0,0,1,0,1,0,0,0,0,0
+Heart Disease,1,0,1,0,0,1,0,1,1,0
+Heart Disease,1,0,0,0,0,1,0,0,0,1
+Heart Disease,1,1,1,1,1,0,1,0,0,1
+Heart Disease,1,1,1,0,1,1,1,1,0,0
+Heart Disease,1,0,0,0,1,0,0,1,1,0
+Heart Disease,0,1,1,0,0,1,0,0,1,0
+Heart Disease,1,1,1,0,0,1,0,1,0,0
+Heart Disease,0,1,0,1,1,1,1,1,0,1
+Heart Disease,0,1,0,1,0,1,1,1,0,1
+Heart Disease,0,0,1,1,1,0,1,1,0,0
+Heart Disease,1,1,1,0,1,0,1,0,1,0
+Heart Disease,0,0,1,0,0,0,1,0,0,0
+Heart Disease,1,1,1,1,0,0,1,0,0,1
+Heart Disease,0,0,0,1,1,0,0,0,1,1
+Heart Disease,1,1,1,0,0,1,1,0,0,1
+Heart Disease,1,1,1,1,1,0,0,1,0,0
+Heart Disease,0,0,0,0,0,0,0,0,0,1
+Heart Disease,0,0,0,1,0,1,1,1,1,1
+Heart Disease,0,0,1,0,1,1,0,0,0,1
+Heart Disease,1,1,0,0,1,1,1,1,0,1
+Heart Disease,0,0,1,0,1,1,0,0,1,0
+Heart Disease,0,0,0,1,0,0,0,0,1,1
+Heart Disease,0,0,1,1,1,0,0,1,1,0
+Heart Disease,1,0,0,1,1,0,0,0,0,1
+Heart Disease,0,0,0,0,1,1,0,1,0,1
+Heart Disease,0,1,0,0,1,1,0,1,0,0
+Heart Disease,1,0,1,1,1,1,1,1,1,1
+Heart Disease,1,0,1,1,1,0,0,0,1,0
+Heart Disease,0,1,0,1,1,0,1,1,0,1
+Heart Disease,0,0,0,0,0,0,1,0,0,1
+Heart Disease,1,0,0,0,1,0,1,1,0,1
+Heart Disease,0,1,1,1,0,0,0,0,1,1
+Heart Disease,0,1,1,1,0,0,1,0,0,0
+Heart Disease,0,0,0,0,1,1,0,1,1,1
+Heart Disease,1,0,1,0,1,0,0,1,0,1
+Heart Disease,0,0,1,0,1,1,0,1,1,0
+Heart Disease,1,0,0,0,0,0,1,0,1,1
+Heart Disease,1,0,0,1,1,0,1,0,0,0
+Heart Disease,0,0,0,0,1,1,0,1,1,1
+Heart Disease,0,0,1,1,0,0,1,1,1,0
+Heart Disease,1,1,1,0,1,0,0,1,1,1
+Heart Disease,1,0,0,1,1,0,1,0,0,1
+Heart Disease,0,0,0,0,1,1,0,1,1,1
+Heart Disease,1,1,0,0,1,0,0,1,1,0
+Heart Disease,1,1,1,0,1,0,1,1,0,0
+Heart Disease,1,1,0,1,0,1,0,0,0,0
+Heart Disease,1,0,1,0,1,0,1,0,0,0
+Heart Disease,0,0,0,0,1,0,1,0,1,0
+Heart Disease,0,0,1,1,0,0,1,0,0,0
+Heart Disease,1,0,1,1,1,0,0,0,1,1
+Heart Disease,0,1,0,0,1,1,0,0,1,0
+Heart Disease,0,1,0,0,1,0,0,0,0,1
+Heart Disease,0,0,1,0,1,1,0,1,1,0
+Heart Disease,0,0,0,0,0,1,1,1,1,0
+Heart Disease,1,1,0,1,0,1,1,1,0,1
+Heart Disease,0,0,0,1,0,0,1,0,1,1
+Heart Disease,0,0,1,0,1,0,0,0,1,0
+Heart Disease,0,0,1,0,0,1,1,0,0,0
+Heart Disease,1,1,0,0,1,1,1,1,0,0
+Heart Disease,1,1,1,0,0,1,1,1,1,1
+Heart Disease,1,1,0,0,0,0,0,0,0,0
+Heart Disease,0,1,1,1,1,0,0,0,0,1
+Heart Disease,1,1,0,0,0,0,0,0,1,1
+Heart Disease,1,1,1,1,0,1,1,0,0,1
+Heart Disease,0,1,0,1,1,0,1,1,0,1
+Heart Disease,0,1,0,1,0,1,0,0,0,1
+Heart Disease,0,0,1,1,0,1,0,1,0,1
+Heart Disease,0,1,1,1,0,1,0,1,1,0
+Heart Disease,1,1,1,1,0,0,0,1,0,0
+Heart Disease,1,1,0,0,0,1,0,0,0,1
+Heart Disease,1,0,1,0,0,0,0,1,1,1
+Heart Disease,1,1,1,0,0,0,0,1,0,1
+Heart Disease,0,1,0,0,0,1,0,0,0,1
+Heart Disease,0,1,0,1,0,1,1,1,1,0
+Heart Disease,1,1,1,0,0,1,1,0,1,1
+Heart Disease,1,0,0,1,0,0,1,1,0,0
+Heart Disease,1,1,1,1,0,0,0,1,1,0
+Heart Disease,1,0,0,0,1,1,1,1,0,0
+Heart Disease,1,0,0,1,0,0,0,1,1,1
+Heart Disease,0,1,1,1,0,0,1,1,1,1
+Heart Disease,0,0,0,1,1,0,0,0,0,1
+Heart Disease,0,0,1,1,1,1,0,1,0,0
+Heart Disease,0,0,1,0,0,0,1,0,0,0
+Heart Disease,0,0,1,1,0,0,0,1,1,1
+Heart Disease,0,0,1,0,0,0,1,1,1,0
+Heart Disease,0,1,1,1,1,0,0,0,1,0
+Heart Disease,0,0,1,0,0,1,1,1,1,0
+Heart Disease,1,1,1,0,0,1,1,1,0,1
+Heart Disease,1,1,0,1,0,0,1,0,0,1
+Heart Disease,1,1,0,0,0,1,1,1,0,1
+Heart Disease,0,1,0,0,0,0,1,1,1,0
+Heart Disease,1,0,0,1,0,0,1,0,0,1
+Heart Disease,1,0,0,0,1,1,0,1,0,0
+Heart Disease,0,1,0,1,0,0,0,0,0,0
+Heart Disease,1,1,1,0,0,1,1,0,0,0
+Heart Disease,0,1,1,0,0,1,1,0,0,0
+Heart Disease,1,0,1,0,1,1,0,0,1,0
+Heart Disease,0,0,0,0,0,1,1,1,0,0
+Heart Disease,1,1,0,0,1,1,0,1,1,1
+Heart Disease,0,0,1,0,0,1,0,1,1,1
+Heart Disease,0,1,1,0,1,0,0,1,1,0
+Heart Disease,1,1,0,0,1,1,1,1,0,0
+Heart Disease,0,1,1,0,0,1,0,1,1,1
+Heart Disease,0,0,0,1,1,1,0,1,1,1
+Heart Disease,1,0,0,0,1,0,1,0,0,1
+Heart Disease,0,1,0,0,0,1,0,0,1,0
+Heart Disease,1,1,1,0,1,1,1,1,0,0
+Heart Disease,1,0,0,1,1,0,0,1,1,0
+Heart Disease,1,1,0,1,1,0,1,0,0,1
+Heart Disease,1,1,0,1,0,1,1,0,1,0
+Heart Disease,1,0,1,0,1,0,0,0,1,1
+Heart Disease,1,1,0,1,0,0,0,1,0,0
+Heart Disease,1,0,0,1,0,1,1,1,1,0
+Heart Disease,1,0,1,0,1,0,1,0,0,0
+Heart Disease,0,0,0,1,0,1,1,0,1,0
+Heart Disease,1,0,1,1,0,0,0,1,0,0
+Heart Disease,0,1,1,1,0,1,1,1,0,0
+Heart Disease,1,1,0,0,0,0,0,0,1,0
+Heart Disease,0,0,1,1,1,1,1,0,1,0
+Heart Disease,0,1,1,0,0,1,1,0,0,1
+Heart Disease,1,1,1,1,1,0,0,0,0,0
+Heart Disease,0,0,0,1,0,1,0,0,1,0
+Heart Disease,0,1,0,0,0,0,1,1,0,0
+Heart Disease,0,0,0,1,1,1,1,1,1,1
+Heart Disease,1,0,1,0,1,1,0,0,1,1
+Heart Disease,1,0,0,0,0,1,1,0,0,0
+Heart Disease,0,1,0,1,1,1,1,0,1,1
+Heart Disease,1,1,1,1,0,0,1,1,1,1
+Heart Disease,1,1,0,1,0,1,1,1,1,0
+Heart Disease,0,0,0,1,1,1,1,0,1,0
+Heart Disease,0,1,0,1,1,0,0,0,0,1
+Heart Disease,0,0,1,1,0,1,1,1,1,1
+Heart Disease,0,1,0,1,1,1,1,0,0,0
+Heart Disease,0,1,0,1,0,0,0,1,0,0
+Heart Disease,1,1,0,1,1,1,0,1,1,0
+Heart Disease,0,1,0,0,1,1,0,1,0,1
+Heart Disease,1,0,1,1,1,0,0,1,0,0
+Heart Disease,0,0,0,1,0,0,0,1,1,0
+Heart Disease,1,1,1,0,0,0,1,0,1,0
+Heart Disease,0,0,0,0,1,1,0,1,1,0
+Heart Disease,1,0,1,0,1,1,1,0,1,0
+Heart Disease,0,1,1,0,1,1,0,0,0,1
+Heart Disease,0,0,1,0,0,1,1,1,1,0
+Heart Disease,0,0,1,1,1,1,0,1,1,0
+Heart Disease,0,1,0,1,0,0,0,0,1,0
+Heart Disease,1,0,1,0,1,1,1,0,1,0
+Heart Disease,1,1,0,1,1,1,1,0,1,1
+Heart Disease,1,0,0,1,0,1,1,0,0,1
+Heart Disease,1,0,0,1,1,0,0,1,0,1
+Heart Disease,0,1,0,1,0,0,1,0,0,0
+Heart Disease,0,1,0,0,0,1,1,0,1,0
+Heart Disease,1,0,0,1,1,1,0,0,1,0
+Heart Disease,0,1,1,0,0,0,1,0,0,0
+Heart Disease,1,0,0,1,0,0,0,1,1,0
+Heart Disease,1,0,1,1,1,0,0,1,1,0
+Heart Disease,1,0,0,1,0,1,0,1,1,1
+Heart Disease,1,1,1,1,0,1,1,1,0,1
+Heart Disease,0,0,1,0,1,1,0,1,1,0
+Heart Disease,1,0,0,0,0,0,1,0,0,1
+Heart Disease,1,0,1,0,1,0,0,1,0,1
+Heart Disease,1,0,1,0,1,0,0,1,0,0
+Heart Disease,1,0,1,1,1,1,1,1,1,1
+Heart Disease,0,0,1,1,1,0,1,1,1,1
+Heart Disease,1,1,0,1,1,0,0,0,1,1
+Heart Disease,0,0,1,1,0,0,0,1,1,0
+Heart Disease,0,1,0,1,0,1,0,1,1,1
+Heart Disease,0,0,0,0,1,1,1,0,1,1
+Heart Disease,0,0,0,0,1,0,0,1,0,1
+Heart Disease,1,1,0,0,1,1,0,1,0,0
+Heart Disease,1,0,0,1,0,0,1,0,0,0
+Heart Disease,1,1,1,0,1,1,0,1,0,1
+Diabetes,1,0,1,0,0,1,0,1,1,1
+Diabetes,0,0,0,0,0,0,1,0,0,0
+Diabetes,1,0,0,0,1,1,0,1,0,0
+Diabetes,0,0,0,1,1,0,1,1,1,1
+Diabetes,1,0,1,0,0,1,0,0,1,0
+Diabetes,1,0,1,1,1,0,1,1,0,0
+Diabetes,1,0,1,0,0,1,0,1,1,0
+Diabetes,1,0,1,0,0,1,0,1,1,1
+Diabetes,0,1,0,1,0,0,1,1,0,1
+Diabetes,1,0,0,0,0,1,0,0,0,1
+Diabetes,0,1,0,1,1,1,1,1,0,0
+Diabetes,1,0,0,1,1,1,0,0,1,0
+Diabetes,0,0,1,1,0,0,0,0,1,1
+Diabetes,1,1,1,1,1,0,0,1,0,1
+Diabetes,0,0,1,1,1,1,0,0,0,1
+Diabetes,0,0,0,1,1,0,1,0,1,1
+Diabetes,1,0,0,0,1,0,1,0,0,1
+Diabetes,1,1,1,0,0,1,0,0,1,1
+Diabetes,0,1,0,0,1,0,1,1,1,0
+Diabetes,1,0,0,1,1,0,0,1,1,0
+Diabetes,1,0,1,1,0,1,0,1,0,1
+Diabetes,0,1,0,1,1,1,0,0,0,1
+Diabetes,1,1,0,1,0,1,1,0,1,1
+Diabetes,1,0,1,0,0,1,0,1,1,1
+Diabetes,1,0,1,0,1,0,1,0,1,1
+Diabetes,0,0,1,1,1,1,0,1,0,0
+Diabetes,0,1,0,1,1,1,0,1,0,0
+Diabetes,0,1,1,1,1,0,0,0,1,0
+Diabetes,0,1,1,0,1,0,0,1,0,1
+Diabetes,0,1,0,0,0,0,0,0,0,1
+Diabetes,0,0,0,0,1,0,1,0,1,0
+Diabetes,1,0,0,1,0,0,0,1,0,0
+Diabetes,1,0,0,1,0,1,0,0,0,1
+Diabetes,1,1,0,0,0,0,1,1,0,0
+Diabetes,0,1,0,0,0,0,1,0,0,1
+Diabetes,0,0,0,1,0,1,0,0,0,1
+Diabetes,0,0,0,1,1,1,0,1,1,0
+Diabetes,0,0,1,0,1,1,1,0,1,0
+Diabetes,1,0,1,1,1,0,0,1,0,1
+Diabetes,1,1,1,0,1,1,0,1,1,1
+Diabetes,0,1,0,0,1,0,1,1,1,1
+Diabetes,1,1,0,0,0,0,0,1,1,1
+Diabetes,1,1,1,1,0,0,1,1,1,0
+Diabetes,1,1,1,1,0,0,0,1,1,1
+Diabetes,1,1,1,0,1,0,0,0,0,0
+Diabetes,1,1,0,0,1,0,0,0,1,1
+Diabetes,1,1,0,1,0,0,1,1,1,0
+Diabetes,0,1,1,0,1,0,0,1,1,0
+Diabetes,0,0,1,1,1,0,0,1,1,0
+Diabetes,0,1,1,0,0,1,0,0,0,0
+Diabetes,1,1,0,1,1,1,0,1,1,0
+Diabetes,0,1,0,0,1,0,1,0,1,1
+Diabetes,1,0,1,1,1,1,0,0,1,1
+Diabetes,0,0,1,0,1,0,1,1,0,0
+Diabetes,0,1,0,1,1,0,1,0,0,0
+Diabetes,1,1,0,0,0,0,1,1,1,0
+Diabetes,1,1,0,1,0,1,0,1,0,0
+Diabetes,1,1,0,0,1,1,1,0,1,1
+Diabetes,1,1,1,1,1,0,1,0,0,1
+Diabetes,0,0,0,0,0,1,1,0,1,0
+Diabetes,1,0,0,0,1,0,0,0,1,0
+Diabetes,0,0,0,1,0,1,1,1,1,0
+Diabetes,1,0,0,0,1,0,1,0,0,0
+Diabetes,0,1,0,0,0,1,1,0,1,1
+Diabetes,0,1,1,1,1,1,0,0,1,0
+Diabetes,0,0,0,0,0,1,0,0,1,1
+Diabetes,0,1,1,0,0,1,1,1,0,1
+Diabetes,0,1,0,0,1,1,1,1,1,1
+Diabetes,1,0,1,0,1,0,0,1,0,1
+Diabetes,0,0,1,1,0,0,1,0,1,0
+Diabetes,0,1,1,0,1,0,0,1,1,0
+Diabetes,1,0,1,1,0,1,0,1,0,0
+Diabetes,1,0,1,1,1,1,0,0,1,1
+Diabetes,1,0,0,1,1,1,1,1,1,1
+Diabetes,1,0,0,0,0,1,0,1,0,0
+Diabetes,1,0,1,1,0,0,0,1,1,1
+Diabetes,0,1,0,0,0,0,0,1,0,0
+Diabetes,1,0,0,1,0,1,1,1,0,0
+Diabetes,1,0,0,0,1,1,1,1,0,0
+Diabetes,0,1,1,1,0,0,1,1,1,1
+Diabetes,1,1,0,0,0,1,1,0,0,1
+Diabetes,0,1,1,0,0,0,1,0,0,0
+Diabetes,1,0,0,1,0,0,0,0,1,1
+Diabetes,1,1,0,0,0,1,0,1,1,0
+Diabetes,1,1,0,0,0,1,1,0,0,1
+Diabetes,0,1,1,0,0,0,1,0,1,0
+Diabetes,1,1,1,0,1,1,1,1,0,1
+Diabetes,1,0,0,1,0,1,1,0,0,1
+Diabetes,1,0,0,0,1,1,1,0,0,1
+Diabetes,0,0,0,0,0,1,0,1,1,0
+Diabetes,1,0,0,0,0,1,1,0,0,0
+Diabetes,1,0,1,1,0,0,0,0,0,0
+Diabetes,0,0,0,0,0,1,1,1,0,0
+Diabetes,1,1,1,0,0,1,0,0,1,1
+Diabetes,0,1,0,1,1,1,1,1,0,1
+Diabetes,0,0,0,0,1,0,1,0,1,1
+Diabetes,1,1,0,0,1,1,0,0,0,0
+Diabetes,1,0,0,0,1,1,1,0,1,0
+Diabetes,1,1,1,1,0,0,0,0,0,1
+Diabetes,1,1,1,1,0,1,0,0,1,0
+Diabetes,1,0,1,1,1,1,1,0,0,0
+Diabetes,0,1,0,1,1,0,0,1,0,0
+Diabetes,1,1,1,1,1,1,0,0,1,0
+Diabetes,1,0,0,0,1,1,1,1,1,1
+Diabetes,0,1,0,0,1,0,0,0,0,0
+Diabetes,0,1,1,0,1,1,1,1,0,1
+Diabetes,1,1,1,1,1,1,1,1,1,0
+Diabetes,1,1,0,1,0,0,0,0,0,1
+Diabetes,1,1,0,1,0,0,1,1,0,0
+Diabetes,0,0,0,0,1,1,1,1,0,1
+Diabetes,0,1,0,1,1,0,1,1,1,0
+Diabetes,0,1,0,1,1,0,0,1,0,1
+Diabetes,0,1,1,0,1,1,0,0,0,1
+Diabetes,1,0,1,1,0,0,1,0,1,0
+Diabetes,0,0,1,1,1,1,1,1,0,1
+Diabetes,1,1,1,0,0,1,1,1,0,1
+Diabetes,1,0,0,0,0,0,1,1,0,0
+Diabetes,0,1,1,0,1,0,1,1,1,1
+Diabetes,1,1,1,0,1,1,1,1,1,1
+Diabetes,0,1,0,1,1,0,1,0,0,0
+Diabetes,0,1,0,0,1,1,0,0,1,1
+Diabetes,1,0,0,1,0,1,1,0,1,1
+Diabetes,1,0,0,1,0,0,0,0,0,0
+Diabetes,1,0,0,0,1,0,0,1,1,0
+Diabetes,1,1,1,0,0,1,1,1,1,0
+Diabetes,1,1,0,1,0,1,1,1,0,0
+Diabetes,1,0,1,1,1,1,1,0,0,1
+Diabetes,1,0,1,0,1,1,0,1,1,0
+Diabetes,0,1,0,0,1,0,0,0,0,0
+Diabetes,1,1,1,1,0,1,0,1,0,1
+Diabetes,1,1,0,1,0,0,1,1,1,0
+Diabetes,1,1,0,0,0,1,0,0,0,1
+Diabetes,0,0,0,0,0,1,0,0,0,1
+Diabetes,1,0,0,1,1,0,0,0,1,0
+Diabetes,0,0,0,1,1,0,1,0,1,0
+Diabetes,0,0,1,1,1,0,0,1,0,1
+Diabetes,1,0,0,0,0,0,1,0,0,0
+Diabetes,1,1,1,1,1,0,1,0,0,0
+Diabetes,1,1,1,0,1,0,0,0,0,0
+Diabetes,0,1,0,1,1,1,1,0,1,1
+Diabetes,0,1,1,1,0,0,1,1,1,1
+Diabetes,0,1,1,1,1,0,0,0,0,0
+Diabetes,1,0,1,0,1,1,1,0,1,0
+Diabetes,0,0,1,0,1,1,1,1,1,1
+Diabetes,1,1,1,0,0,1,0,0,0,1
+Diabetes,0,1,1,0,1,0,0,1,0,1
+Diabetes,1,1,0,1,0,1,0,0,0,1
+Diabetes,0,1,1,1,1,1,1,1,0,1
+Diabetes,0,0,1,1,0,1,0,0,0,1
+Diabetes,1,1,0,1,1,1,1,1,0,1
+Diabetes,1,1,0,1,1,0,0,1,0,1
+Diabetes,1,0,0,0,1,1,1,0,1,1
+Diabetes,0,1,0,1,1,0,0,0,0,1
+Diabetes,1,0,0,1,1,1,1,1,1,0
+Diabetes,0,1,0,0,1,0,0,0,1,1
+Diabetes,1,1,0,1,1,0,1,1,0,1
+Diabetes,0,1,1,1,0,1,0,0,0,1
+Diabetes,1,1,1,0,1,0,1,1,0,0
+Diabetes,0,1,0,1,1,0,0,0,1,0
+Diabetes,1,0,0,1,1,1,0,1,0,0
+Diabetes,1,0,1,1,0,1,1,0,1,1
+Diabetes,1,0,0,0,0,0,0,0,1,1
+Diabetes,1,0,1,1,0,0,1,1,1,0
+Diabetes,1,1,1,0,0,0,1,1,0,1
+Diabetes,0,1,1,1,0,1,1,1,0,1
+Diabetes,0,0,1,0,1,0,1,1,0,1
+Diabetes,0,1,1,0,1,1,0,0,0,0
+Diabetes,1,1,0,1,0,0,1,0,1,1
+Diabetes,0,1,1,0,0,1,1,1,1,1
+Diabetes,1,0,1,0,1,0,0,0,0,1
+Diabetes,1,0,0,0,0,1,0,0,0,1
+Diabetes,1,1,0,0,0,0,1,0,1,1
+Diabetes,0,0,1,0,0,1,1,0,1,1
+Diabetes,1,0,0,0,1,1,0,0,0,0
+Diabetes,0,1,0,0,1,1,0,1,1,0
+Diabetes,0,1,1,0,1,1,0,1,1,1
+Diabetes,0,0,1,0,1,0,0,0,0,1
+Diabetes,1,0,1,0,1,1,1,1,0,1
+Diabetes,1,0,1,1,0,0,1,0,1,0
+Diabetes,0,1,1,1,0,1,0,1,0,1
+Diabetes,1,1,1,0,0,1,0,0,1,0
+Diabetes,1,1,0,0,1,0,0,1,1,0
+Diabetes,0,1,0,1,0,0,1,1,0,1
+Diabetes,0,1,1,0,1,1,1,0,1,1
+Diabetes,1,0,0,0,1,0,0,1,1,0
+Diabetes,0,1,1,1,0,0,0,1,0,0
+Diabetes,1,0,0,0,1,1,1,0,0,0
+Diabetes,1,1,1,0,0,1,1,1,0,1
+Diabetes,1,1,1,0,1,0,0,1,1,0
+Diabetes,0,1,1,0,1,0,0,0,1,1
+Diabetes,0,1,1,0,1,1,1,1,0,0
+Diabetes,0,1,0,1,0,0,0,1,0,1
+Diabetes,1,0,0,0,0,1,0,0,0,1
+Diabetes,1,0,1,0,1,0,0,0,0,1
+Diabetes,0,0,0,1,1,1,1,0,0,1
+Diabetes,0,0,1,1,1,1,0,1,1,1
+Diabetes,0,0,0,0,1,0,1,0,0,1
+Diabetes,0,1,1,1,0,0,1,0,1,1
+Diabetes,0,1,1,1,0,1,1,0,1,1
+Diabetes,0,1,0,1,0,1,1,0,0,1
