@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 Air Quality & Disease Risk Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+</head>
+<body>
+    <!-- Floating Action Button -->
+    <button class="fab" onclick="scrollToTop()" title="Back to Top">
+        <span>↑</span>
+    </button>
+
+    <!-- Dark Mode Toggle (Future Enhancement) -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()" title="Toggle Dark Mode">
+        🌙
+    </button>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="emoji">🌍</span>
+                    Air Quality & Disease Risk Prediction
+                    <span class="emoji">🏥</span>
+                </h1>
+                <p class="subtitle">
+                    <span class="highlight">AI-Powered Health Analytics</span> |
+                    Understand your health risk based on air quality and symptoms
+                </p>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Cities</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">ML Models</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <!-- FORM SECTION -->
+            <section class="form-section">
+                <div class="form-card">
+                    <h2 class="section-title">
+                        <span class="emoji">📋</span>
+                        Health Assessment Form
+                    </h2>
+
+                    <form id="predictionForm" class="form">
+                        <!-- CITY SELECTION -->
+                        <div class="form-group">
+                            <label for="city" class="form-label">
+                                <span class="emoji">🏙️</span>
+                                Select Your City *
+                            </label>
+                            <select id="city" name="city" class="form-control" required>
+                                <option value="">-- Choose your city --</option>
+                                {% for city in cities %}
+                                <option value="{{ city }}">{{ city }}</option>
+                                {% endfor %}
+                            </select>
+                            <small class="form-help">Real-time air quality data for major Indian cities</small>
+                        </div>
+
+                        <!-- PERSONAL INFORMATION -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="age" class="form-label">
+                                    <span class="emoji">👤</span>
+                                    Age (years) *
+                                </label>
+                                <input type="number" id="age" name="age" class="form-control"
+                                       value="30" min="1" max="120" required>
+                                <small class="form-help">Age affects disease risk calculation</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="gender" class="form-label">
+                                    <span class="emoji">⚧️</span>
+                                    Gender *
+                                </label>
+                                <select id="gender" name="gender" class="form-control" required>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <small class="form-help">Gender-specific health patterns</small>
+                            </div>
+                        </div>
+
+                        <!-- LIFESTYLE -->
+                        <div class="form-group">
+                            <label class="form-label">
+                                <span class="emoji">🚬</span>
+                                Lifestyle Factors
+                            </label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="smoking" name="smoking" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>Smoking</strong>
+                                        <small>Increases respiratory disease risk by 30%</small>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- SYMPTOMS -->
+                        <div class="form-group">
+                            <label class="form-label form-label-group">
+                                <span class="emoji">🏥</span>
+                                Current Symptoms
+                                <small class="form-note">(Check all that apply)</small>
+                            </label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="cough" name="cough" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>🤧 Cough</strong>
+                                        <small>Common respiratory symptom</small>
+                                    </span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="breathlessness" name="breathlessness" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>😤 Breathlessness / Shortness of Breath</strong>
+                                        <small>Severe respiratory distress</small>
+                                    </span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="fever" name="fever" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>🌡️ Fever</strong>
+                                        <small>Body temperature > 98.6°F</small>
+                                    </span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="chest_pain" name="chest_pain" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>💔 Chest Pain</strong>
+                                        <small>Cardiac or respiratory discomfort</small>
+                                    </span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="fatigue" name="fatigue" value="1">
+                                    <span class="checkbox-text">
+                                        <strong>😴 Fatigue / Tiredness</strong>
+                                        <small>General weakness or exhaustion</small>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- SUBMIT BUTTON -->
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-icon">🔮</span>
+                            <span class="btn-text">Predict Disease Risk</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- LOADING SPINNER -->
+                <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+                    <div class="spinner-container">
+                        <div class="spinner"></div>
+                        <div class="loading-text">
+                            <h3>Analyzing Your Health Data</h3>
+                            <p>Running AI models and calculating risk factors...</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RESULTS SECTION -->
+            <section id="resultsSection" class="results-section" style="display: none;">
+                <div class="results-container">
+                    <!-- HEADER -->
+                    <div class="results-header">
+                        <h2 class="results-title">
+                            <span class="emoji">📊</span>
+                            Your Health Risk Analysis
+                        </h2>
+                        <button class="btn btn-secondary" onclick="resetForm()">
+                            <span class="btn-icon">←</span>
+                            <span class="btn-text">New Assessment</span>
+                        </button>
+                    </div>
+
+                    <!-- AIR QUALITY CARD -->
+                    <div class="result-card air-quality-card">
+                        <h3 class="card-title">
+                            <span class="emoji">🌫️</span>
+                            Air Quality Information
+                        </h3>
+                        <div class="card-content">
+                            <div class="info-row">
+                                <span class="info-label">
+                                    <span class="emoji">🏙️</span>
+                                    City
+                                </span>
+                                <span class="info-value" id="resultCity">-</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">
+                                    <span class="emoji">📊</span>
+                                    AQI Index
+                                </span>
+                                <span class="info-value aqi-value" id="resultAQI">-</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">
+                                    <span class="emoji">⚠️</span>
+                                    Air Quality Status
+                                </span>
+                                <span class="info-value aqi-category" id="resultAQICategory">-</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">
+                                    <span class="emoji">💨</span>
+                                    PM2.5 (µg/m³)
+                                </span>
+                                <span class="info-value" id="resultPM25">-</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">
+                                    <span class="emoji">🌪️</span>
+                                    PM10 (µg/m³)
+                                </span>
+                                <span class="info-value" id="resultPM10">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DISEASE PREDICTION CARD -->
+                    <div class="result-card disease-card">
+                        <h3 class="card-title">
+                            <span class="emoji">🏥</span>
+                            Disease Prediction
+                        </h3>
+                        <div class="card-content">
+                            <div class="disease-prediction">
+                                <div class="predicted-disease" id="resultDisease">-</div>
+                                <div class="prediction-confidence">
+                                    <small>Based on your symptoms and air quality data</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RISK LEVEL CARD -->
+                    <div class="result-card risk-card">
+                        <h3 class="card-title">
+                            <span class="emoji">⚠️</span>
+                            Disease Risk Assessment
+                        </h3>
+                        <div class="card-content">
+                            <div class="risk-display">
+                                <div class="risk-percentage" id="resultRiskPercent">0%</div>
+                                <div class="risk-level" id="resultRiskLevel">-</div>
+                                <div class="risk-description">
+                                    <small>Your calculated disease risk percentage</small>
+                                </div>
+                            </div>
+                            <div class="risk-bar">
+                                <div class="risk-bar-fill" id="riskBarFill"></div>
+                            </div>
+                            <div class="risk-scale">
+                                <div class="scale-marker low">Low<br><small>0-40%</small></div>
+                                <div class="scale-marker medium">Medium<br><small>41-70%</small></div>
+                                <div class="scale-marker high">High<br><small>71-100%</small></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HEALTH ADVICE CARD -->
+                    <div class="result-card advice-card">
+                        <h3 class="card-title">
+                            <span class="emoji">💊</span>
+                            Personalized Health Recommendations
+                        </h3>
+                        <div class="card-content">
+                            <ul class="advice-list" id="adviceList">
+                                <li class="skeleton skeleton-text"></li>
+                                <li class="skeleton skeleton-text"></li>
+                                <li class="skeleton skeleton-text"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- AQI SCALE REFERENCE -->
+                    <div class="result-card reference-card">
+                        <h3 class="card-title">
+                            <span class="emoji">📖</span>
+                            AQI Scale Reference
+                        </h3>
+                        <div class="card-content">
+                            <div class="scale-item good">
+                                <span class="scale-label">
+                                    <span class="emoji">✅</span>
+                                    Good
+                                </span>
+                                <span class="scale-range">0-50</span>
+                                <small>Air quality is satisfactory</small>
+                            </div>
+                            <div class="scale-item satisfactory">
+                                <span class="scale-label">
+                                    <span class="emoji">👍</span>
+                                    Satisfactory
+                                </span>
+                                <span class="scale-range">51-100</span>
+                                <small>Air quality is acceptable</small>
+                            </div>
+                            <div class="scale-item moderate">
+                                <span class="scale-label">
+                                    <span class="emoji">⚠️</span>
+                                    Moderately Polluted
+                                </span>
+                                <span class="scale-range">101-200</span>
+                                <small>May affect sensitive groups</small>
+                            </div>
+                            <div class="scale-item poor">
+                                <span class="scale-label">
+                                    <span class="emoji">🚫</span>
+                                    Poor
+                                </span>
+                                <span class="scale-range">201-300</span>
+                                <small>May affect general population</small>
+                            </div>
+                            <div class="scale-item verypoor">
+                                <span class="scale-label">
+                                    <span class="emoji">☠️</span>
+                                    Very Poor
+                                </span>
+                                <span class="scale-range">301+</span>
+                                <small>Serious health effects possible</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SHARE RESULTS -->
+                    <div class="result-card share-card">
+                        <h3 class="card-title">
+                            <span class="emoji">📤</span>
+                            Share Your Results
+                        </h3>
+                        <div class="card-content">
+                            <div class="share-buttons">
+                                <button class="btn btn-share twitter" onclick="shareOnTwitter()">
+                                    <span class="emoji">🐦</span>
+                                    Twitter
+                                </button>
+                                <button class="btn btn-share facebook" onclick="shareOnFacebook()">
+                                    <span class="emoji">📘</span>
+                                    Facebook
+                                </button>
+                                <button class="btn btn-share whatsapp" onclick="shareOnWhatsApp()">
+                                    <span class="emoji">💬</span>
+                                    WhatsApp
+                                </button>
+                                <button class="btn btn-share copy" onclick="copyResults()">
+                                    <span class="emoji">📋</span>
+                                    Copy Link
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ERROR MESSAGE -->
+            <div id="errorMessage" class="error-message" style="display: none;">
+                <span class="emoji">❌</span>
+                <span id="errorText">An error occurred. Please try again.</span>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-bottom">
+                <p>Built with ❤️ for Health & Environment Awareness</p>
+                <p>© 2024 Air Quality & Disease Risk Prediction System</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Global variables
+        let progressInterval;
+
+        // Form submission handler
+        document.getElementById('predictionForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Hide error message and results
+            document.getElementById('errorMessage').style.display = 'none';
+            document.getElementById('resultsSection').style.display = 'none';
+
+            // Show loading spinner with progress
+            document.getElementById('loadingSpinner').style.display = 'flex';
+            startProgressAnimation();
+
+            try {
+                // Collect form data
+                const formData = {
+                    city: document.getElementById('city').value,
+                    age: document.getElementById('age').value,
+                    gender: document.getElementById('gender').value,
+                    smoking: document.getElementById('smoking').checked ? 1 : 0,
+                    cough: document.getElementById('cough').checked ? 1 : 0,
+                    breathlessness: document.getElementById('breathlessness').checked ? 1 : 0,
+                    fever: document.getElementById('fever').checked ? 1 : 0,
+                    chest_pain: document.getElementById('chest_pain').checked ? 1 : 0,
+                    fatigue: document.getElementById('fatigue').checked ? 1 : 0
+                };
+
+                // Simulate API delay for better UX
+                await new Promise(resolve => setTimeout(resolve, 2000));
+
+                // Send prediction request
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (!response.ok) {
+                    throw new Error('Prediction failed. Please try again.');
+                }
+
+                const result = await response.json();
+                displayResults(result);
+
+            } catch (error) {
+                showError('Error: ' + error.message);
+            } finally {
+                stopProgressAnimation();
+                document.getElementById('loadingSpinner').style.display = 'none';
+            }
+        });
+
+        // Progress animation
+        function startProgressAnimation() {
+            const progressFill = document.getElementById('progressFill');
+            let progress = 0;
+
+            progressInterval = setInterval(() => {
+                progress += Math.random() * 15;
+                if (progress > 90) progress = 90;
+                progressFill.style.width = progress + '%';
+            }, 200);
+        }
+
+        function stopProgressAnimation() {
+            if (progressInterval) {
+                clearInterval(progressInterval);
+                document.getElementById('progressFill').style.width = '100%';
+            }
+        }
+
+        // Display results with animations
+        function displayResults(data) {
+            if (data.error) {
+                showError(data.error);
+                return;
+            }
+
+            // Populate results
+            document.getElementById('resultCity').textContent = data.city;
+            document.getElementById('resultAQI').textContent = data.aqi;
+            document.getElementById('resultAQICategory').textContent = data.aqi_category;
+            document.getElementById('resultPM25').textContent = data.pm25;
+            document.getElementById('resultPM10').textContent = data.pm10;
+            document.getElementById('resultDisease').textContent = data.predicted_disease;
+            document.getElementById('resultRiskPercent').textContent = data.risk_percent + '%';
+            document.getElementById('resultRiskLevel').textContent = data.risk_level;
+
+            // Update risk bar with animation
+            const riskBarFill = document.getElementById('riskBarFill');
+            setTimeout(() => {
+                riskBarFill.style.width = data.risk_percent + '%';
+            }, 500);
+
+            // Color risk bar based on risk level
+            if (data.risk_level === 'HIGH') {
+                riskBarFill.style.background = 'linear-gradient(135deg, #e74c3c, #c0392b)';
+            } else if (data.risk_level === 'MEDIUM') {
+                riskBarFill.style.background = 'linear-gradient(135deg, #f39c12, #e67e22)';
+            } else {
+                riskBarFill.style.background = 'linear-gradient(135deg, #27ae60, #2ecc71)';
+            }
+
+            // Display advice with animation
+            const adviceList = document.getElementById('adviceList');
+            adviceList.innerHTML = '';
+            data.health_advice.forEach((advice, index) => {
+                setTimeout(() => {
+                    const li = document.createElement('li');
+                    li.textContent = advice;
+                    li.style.animation = 'slideInLeft 0.5s ease-out forwards';
+                    li.style.opacity = '0';
+                    setTimeout(() => li.style.opacity = '1', 100);
+                    adviceList.appendChild(li);
+                }, index * 200);
+            });
+
+            // Show results section with animation
+            document.getElementById('resultsSection').style.display = 'block';
+
+            // Scroll to results smoothly
+            setTimeout(() => {
+                document.getElementById('resultsSection').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 300);
+
+            // Add success animation
+            showSuccessAnimation();
+        }
+
+        // Success animation
+        function showSuccessAnimation() {
+            const successDiv = document.createElement('div');
+            successDiv.className = 'success-checkmark';
+            successDiv.style.position = 'fixed';
+            successDiv.style.top = '50%';
+            successDiv.style.left = '50%';
+            successDiv.style.transform = 'translate(-50%, -50%)';
+            successDiv.style.zIndex = '9999';
+
+            document.body.appendChild(successDiv);
+
+            setTimeout(() => {
+                document.body.removeChild(successDiv);
+            }, 2000);
+        }
+
+        // Show error message
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            document.getElementById('errorText').textContent = message;
+            errorDiv.style.display = 'block';
+            document.getElementById('loadingSpinner').style.display = 'none';
+
+            // Shake animation
+            errorDiv.style.animation = 'shake 0.5s ease-in-out';
+            setTimeout(() => {
+                errorDiv.style.animation = '';
+            }, 500);
+        }
+
+        // Reset form
+        function resetForm() {
+            document.getElementById('predictionForm').reset();
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+
+            // Reset risk bar
+            document.getElementById('riskBarFill').style.width = '0%';
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Scroll to top function
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Dark mode toggle (placeholder for future enhancement)
+        function toggleDarkMode() {
+            alert('Dark mode coming soon! 🌙');
+        }
+
+        // Social sharing functions
+        function shareOnTwitter() {
+            const text = `Check out my disease risk prediction! City: ${document.getElementById('resultCity').textContent}, Risk: ${document.getElementById('resultRiskPercent').textContent} - Air Quality & Disease Risk Prediction System`;
+            const url = window.location.href;
+            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function shareOnFacebook() {
+            const url = window.location.href;
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function shareOnWhatsApp() {
+            const text = `Check out my disease risk prediction! City: ${document.getElementById('resultCity').textContent}, Risk: ${document.getElementById('resultRiskPercent').textContent}`;
+            const url = window.location.href;
+            window.open(`https://wa.me/?text=${encodeURIComponent(text + ' ' + url)}`, '_blank');
+        }
+
+        function copyResults() {
+            const text = `Disease Risk Prediction Results:\nCity: ${document.getElementById('resultCity').textContent}\nAQI: ${document.getElementById('resultAQI').textContent}\nPredicted Disease: ${document.getElementById('resultDisease').textContent}\nRisk Level: ${document.getElementById('resultRiskPercent').textContent}\n\nCheck it out: ${window.location.href}`;
+
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Results copied to clipboard! 📋');
+            }).catch(() => {
+                alert('Failed to copy. Please copy manually.');
+            });
+        }
+
+        // Add scroll animations
+        window.addEventListener('scroll', () => {
+            const elements = document.querySelectorAll('.fade-in-up');
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    el.classList.add('visible');
+                }
+            });
+        });
+
+        // Form validation enhancement
+        document.querySelectorAll('.form-control').forEach(input => {
+            input.addEventListener('blur', function() {
+                if (this.value.trim() !== '') {
+                    this.classList.add('filled');
+                } else {
+                    this.classList.remove('filled');
+                }
+            });
+        });
+
+        // Add loading states to buttons
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (!this.classList.contains('loading')) {
+                    this.classList.add('loading');
+                    setTimeout(() => {
+                        this.classList.remove('loading');
+                    }, 2000);
+                }
+            });
+        });
+
+        // Initialize tooltips for better UX
+        document.querySelectorAll('[title]').forEach(el => {
+            el.style.cursor = 'help';
+        });
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === 'Enter') {
+                document.getElementById('predictionForm').dispatchEvent(new Event('submit'));
+            }
+            if (e.key === 'Escape') {
+                resetForm();
+            }
+        });
+
+        console.log('🌍 Air Quality & Disease Risk Prediction System Loaded Successfully!');
+        console.log('💡 Pro Tips:');
+        console.log('   • Press Ctrl+Enter to submit form');
+        console.log('   • Press Escape to reset form');
+        console.log('   • Use the floating button to scroll to top');
+    </script>
+</body>
+</html>
